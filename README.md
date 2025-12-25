@@ -1,16 +1,14 @@
-# 🛡️ AION-1: Acelerador FPGA para Segurança de Fusão Nuclear
+# 🤖 AION (Artificial Intelligence Operating Network)
 
-O **AION-1 Alpha** é um sistema de segurança crítica (Watchdog) baseado em hardware dedicado para reatores de fusão. O foco principal é a proteção contra disrupções plasmáticas através de uma resposta determinística ultra-rápida.
+O **AION** é a espinha dorsal de inteligência do ecossistema Guibral Labs. Ele atua como o orquestrador entre os modelos físicos do **NPE** e os protocolos de segurança do **AEGIS**.
 
-### 🛠️ Especificações Técnicas
-* **Latência Determinística:** Resposta de hardware validada em **21 nanossegundos** para disparo de pulsos de segurança (`KILL_PULSE`).
-* [cite_start]**Protocolo PSQ:** Protocolo de Sincronização Quântica (determinismo temporal) que reduz o *jitter* para menos de 2 µs, superando sistemas RTOS e Linux convencionais[cite: 215, 390, 397].
-* **Arquitetura em 3 Camadas:** Integração entre Simulação Python, Firmware STM32 e Hardware Verilog RTL.
-* **Segurança Crítica:** Projetado para monitorização de limites de estabilidade MHD com prioridade absoluta de execução.
+## 🧠 Módulos Integrados
+- **aion-signal:** Processamento e limpeza de sinais de alta frequência.
+- **aion-predict:** Modelos preditivos para antecipação de eventos disruptivos.
+- **aion-core:** Gerenciamento de telemetria e inter-comunicação entre sistemas.
 
-### 📁 Estrutura de Pastas
-* `/hardware`: Código Verilog RTL do núcleo PSQ e Testbenches.
-* `/docs`: Roadmap da FEBRACE, logs de timing e diagramas de arquitetura.
+## 🚀 Visão Geral
+O framework foi desenhado para operar em ambientes de missão crítica, priorizando a estabilidade matemática e a baixa latência no processamento de dados de sensores magnéticos.
 
-### 🏆 Reconhecimento
-Este projeto foi desenvolvido como parte da iniciativa **AION**, visando a implementação de padrões de segurança de nível industrial em cenários de energia limpa e soberania tecnológica.
+---
+*Pesquisador Responsável: Guilherme Brasil de Souza*
